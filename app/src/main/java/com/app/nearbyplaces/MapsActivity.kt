@@ -154,7 +154,7 @@ open class MapsActivity : FragmentActivity(), OnMapReadyCallback,
         googleURL.append("&radius=$ProximityRadius")
         googleURL.append("&type=$nearbyPlace")
         googleURL.append("&sensor=true")
-        googleURL.append("&key=" + "AIzaSyCPaWZ82O2KbXCsZwnZXq0Qe_kKu-SL_WA")
+        googleURL.append("&key=" + "API KEY")
         Log.d("GoogleMapsActivity", "url = $googleURL")
         return googleURL.toString()
     }
